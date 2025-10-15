@@ -3,7 +3,7 @@ struct Material
     ρ::Float64      # Density (kg/m³)
 end
 
-function Base.show(io:IO, material::Material)
+function Base.show(io::IO, material::Material)
     print(io, "$(material.name): ρ = $(round(material.ρ, digits=1)) kg/m³")
 end
 
