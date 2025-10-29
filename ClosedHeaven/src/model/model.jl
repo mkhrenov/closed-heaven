@@ -6,4 +6,4 @@ include("AxialFluxMotor.jl")
 include("Battery.jl")
 include("Airfoil.jl")
 
-include("Robot.jl")
+include("AeroShell.jl")
