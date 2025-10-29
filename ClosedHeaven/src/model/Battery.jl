@@ -1,4 +1,4 @@
-struct Battery
-    voltage::Float64    # Voltage
-    capacity::Float64   # Capacity, Coulombs 
+struct Battery{T}
+    voltage::T    # Voltage
+    capacity::T   # Capacity, Coulombs 
 end

@@ -1,5 +1,5 @@
-struct Assembly
-    parts::Vector{Part}
+struct Assembly{T}
+    parts::Vector{Part{T}}
 end
 
 

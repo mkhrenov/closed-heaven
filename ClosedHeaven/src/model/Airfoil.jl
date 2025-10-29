@@ -1,6 +1,6 @@
-struct Airfoil
-    c_d::Float64
-    c_l::Float64
-    c::Float64
-    s::Float64
+struct Airfoil{T}
+    c_d::T      # Drag coefficient
+    c_l::T      # Lift coefficient
+    c::T        # Cord length
+    s::T        # Wingspan
 end
