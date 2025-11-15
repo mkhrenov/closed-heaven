@@ -3,7 +3,7 @@ struct Part{T}
     name::String
     material::Material
     mass::T
-    com::SMatrix{3,T}
+    com::SVector{3,T}
     moi::SMatrix{3,3,T}
 end
 
